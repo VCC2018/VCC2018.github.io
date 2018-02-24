@@ -1,0 +1,568 @@
+
+@charset "utf-8";
+
+
+body {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    font: normal 12px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
+    color: #4e4e4e;
+}
+
+.clr {
+    clear: both;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    line-height: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    line-height: 1.2em;
+}
+
+h2 {
+    padding: 16px 0;
+    color: #3f3f3f;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+h3 a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 8px 0;
+    padding: 0 0 8px 0;
+}
+
+a {
+    color: #315d7f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    width: 960px;
+    margin: 8px auto;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border: 0px solid #00007C;
+}
+
+.logo, .logo_right {
+    float: left;
+    height: 105px;
+    padding: 14px 0 0;
+}
+
+.logo_right {
+    float: right;
+}
+
+h1 a, h1 a:hover {
+    color: #00007C;
+    text-decoration: none;
+}
+
+#logo_icmr {
+    font-size: 57px;
+    font-weight: bold;
+}
+
+#logo_date {
+    margin-top: -4px;
+    font-weight: bold;
+    font-size: 23px;
+    color: #A00 !important;
+}
+
+#logo_acm {
+    float: right;
+    line-height: 1.4em;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+#banner-bucharest {
+    width: 100%;
+    min-height: 130px;
+}
+
+#banner-bucharest img {
+    width: 100%;
+    border-top: 0px solid #00007C;
+    border-left: 0px solid #00007C;
+    border-right: 0px solid #00007C;
+}
+
+.content {
+    padding: 18px 0 0;
+}
+
+.content .mainbar {
+    float: left;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.content .mainbar .article {
+    width: 100%;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.content .mainbar .article ul {
+    margin-top: -10px;
+}
+
+#canvas {
+    float: left;
+    margin-right: 15px;
+}
+
+nav {
+    height: 840px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.important_information {
+    float: left;
+    width: 630px;
+    font-weight: bold;
+}
+
+.important_information td.td_450 {
+    width: 530px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.important_information a.rm {
+    float: right;
+    margin: 0 0 8px 0;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.important_information a.rm span:hover {
+    text-decoration: underline;
+}
+
+.content .sidebar {
+    float: right;
+    width: 260px;
+    padding-bottom: 30px;
+}
+
+.content .sidebar h2 {
+    color: #3f3f3f;
+    border-bottom: 1px solid #fff;
+}
+
+.content .sidebar .important_dates {
+    width: 260px; 
+    margin: 0;
+    margin-bottom: 15px; 
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #3f3f3f;
+
+}
+
+.content .sidebar .important_dates p {
+    margin: 0;
+    padding: 0;
+    color: #A00;
+    font-weight: bold;
+}
+
+table.affiliation tr td p {
+    width: 170px;
+    margin-left: 10px;
+    text-align: left;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+table.affiliation {
+    margin: 0 auto;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+
+table.affiliation tr td p a {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+table.affiliation tr td img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.footer {
+    padding: 16px 16px 6px 16px;
+    line-height: 1.5em;
+    color: #3b3b3b;
+}
+
+.footer p {
+    padding: 0;
+    line-height: normal;
+    white-space: nowrap;
+    text-indent: inherit;
+}
+
+.footer a {
+    color: #307775;
+}
+
+.footer .lf {
+    float: left;
+}
+
+.footer .rf {
+    float: right;
+}
+
+
+/* ORGANIZING COMMITTEE */
+
+table.chairs tr td p {
+    width: 170px;
+    margin-left: 10px;
+    padding-right: 30px;
+    text-align: left;
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+table.chairs tr td a img {
+    padding-top: 12px;
+    width: 90px;
+    height: 120px;
+}
+
+table.chairs tr td p a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+table.chairs a {
+     text-decoration:none;
+
+}
+
+/* CONTACT + ORGANIZING COMMITTEE */
+
+.content .mainbar .article a.email_a {
+    margin-left: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content .mainbar .article div.email_img {
+    position: absolute;
+    margin-top: 2px;
+    height: 16px;
+    width: 16px;
+    background-image: url("../images/mail.png");
+    background-size: 16px;
+}
+
+.content .mainbar .article a.email {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* CALL FOR CONTRIBUTIONS */
+
+table.submissions {
+    margin-top: 25px;
+    width: 100%;
+}
+
+table.submissions th {
+    padding-top: 8px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #315d7f;
+}
+
+table.submissions td {
+    padding-top: 8px;
+    width: 300px;
+}
+
+table.submissions th p, table.submissions td p {
+    margin: 0;
+}
+
+
+/* TRAVEL INFORMATION */
+
+#table_travel {
+    margin: 0 auto;
+    width: auto;
+    max-width: 700px;
+    border: 1px solid #3b7687;
+    border-collapse: collapse;
+}
+
+#table_travel td, #table_travel th {
+    padding-left: 10px;
+    padding-right: 45px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid #3b7687;
+}
+
+#div_travel {
+    position: relative;
+    left: 43%;
+    margin-top: 10px;
+}
+
+#div_travel img {
+    width: 15%;
+}
+
+.p_section {
+    margin-top: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.p_10{
+    margin-top: -10px;
+}
+
+
+/* ABOUT BUCHAREST */
+
+.img_about_l {
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    max-height: 200px;
+    max-width: 250px;
+    border: 1px solid #000;
+}
+
+.img_about_r {
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: right;
+    max-height: 200px;
+    max-width: 250px;
+    border: 1px solid #000;
+}
+
+
+/* INDEX->SPONSORS */
+
+.img_sponsors {
+    position: relative;
+    top: 10px;
+    margin-bottom: 10px;
+}
+
+.p_sponsors {
+    color: #000 !important;
+}
+
+
+/* REGISTRATION */
+
+.td_centered {
+    padding-right: 10px !important;
+    text-align: center;  
+}
+
+#reg_form {
+    margin-top: 10px;
+}
+
+#reg_form p {
+    position: absolute;
+    margin: 10px 0 0 0;   /* padding 6 + border 2.33 + margin 10 from .reg_form_input */
+    padding: 3px;
+    line-height: 20px;
+    width: 340px;
+    text-align: right;
+}
+
+.reg_form_h2_red {
+    color: #A00;
+}
+
+.reg_form_input {
+    position: relative;
+    display: block;
+    left: 350px;
+    margin: 10px 0 0 0;
+    padding: 3px;
+    height: 20px;
+    width: 200px;
+}
+
+.reg_form_radio {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#reg_form_submit {
+    margin-top: 30px;
+    height: 30px;
+    background-color: #A00;
+    color: #FFF;
+    border-color: #A00;
+    border-radius: 3px;
+}
+
+#reg_form_submit:hover {
+    background-color: #B22;
+    border-color: #B22;
+    cursor: pointer;
+}
+
+.p_red {
+    width: 600px;
+    color: #F00;
+    font-weight: bold;
+}
+
+.a_red {
+    color: #F00 !important;
+    font-weight: bold;
+    text-decoration: underline !important;
+}
+
+.label_red {
+    color: #F00;
+}
+
+#reg_details {
+    position: relative;
+}
+
+#reg_details p {
+    position: relative;
+    line-height: 18px;
+    width: auto;
+    text-align: justify;
+}
+
+
+/* REGISTRATION SUMMARY */
+
+.td_right {
+    text-align: right;
+    padding-right: 20px !important;
+    width: 100px;
+}
+
+#summary_checked{
+    margin-left: 10%;
+}
+
+#summary_form_correct {
+    margin-left: 30%;
+    margin-top: 30px;
+    height: 30px;
+    background-color: #A00;
+    color: #FFF;
+    border-color: #A00;
+    border-radius: 3px;
+}
+
+#summary_form_correct:hover {
+    background-color: #B22;
+    border-color: #B22;
+    cursor: pointer;
+}
+
+#summary_form_incorrect {
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 30px;
+}
+
+#summary_form_incorrect:hover {
+    cursor: pointer;
+}
+
+
+/* REGISTRATION-FINAL */
+
+#logos_registration {
+    margin-top: -25px;
+    margin-left: 17px;
+    height: 35px;
+    background-color: #FFFFFF;
+}
+
+#logos_registration img {
+    float: right;
+    height: 35px;
+}
+
+
+/* STUDENT GRANTS */
+
+.content .mainbar .article ol {
+    margin: 5px 0 0 0;
+    line-height: 1.5em;
+}
+
+.content .mainbar .article ol ul {
+    margin: 10px 0;
+    line-height: 1.2em;
+    list-style-type: disc;
+}
+
+
+/* BEST PAPERS & BEST REVIEWERS */
+
+.h1_extend {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.h2_extend {
+    text-align: center;
+    padding-bottom: 0;
+    color: #315d7f;
+}
+
+.p_extend {
+    text-align: center;
+}
+
+.horizontal_line {
+    margin: 0 auto;
+    width: 200px;
+    border-bottom: 1px solid #000;
+}

@@ -1,0 +1,127 @@
+
+#drop-nav {
+    width: 960px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #FFF;
+    border-bottom: 0px solid #00007C;
+    border-left: 0px solid #00007C;
+    border-right: 0px solid #00007C;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    text-align: center;
+}
+
+#drop-nav li {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+#drop-nav li ul {
+    position: absolute;
+    padding: 0;
+    display: none;
+    border-bottom: 2px solid #00007C;
+    border-left: 2px solid #00007C;
+    border-right: 2px solid #00007C;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    z-index: 10;
+}
+
+#drop-nav li a {
+    display: block;
+    height: 18px;
+    padding: 7px 25px 7px 25px;
+    border-left: 2px solid #FFF;
+    /* border-right: 2px solid #FFF; */
+    text-decoration: none;
+    white-space: nowrap;
+    color: #00007C;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+#drop-nav li a.first {
+    border-left: none;
+}
+
+#drop-nav li a.last {
+    border-right: none;
+}
+
+#drop-nav li a.last:hover {
+    background: #3f3f3f;
+}
+
+#drop-nav li a.last-contact {
+    border-right: none;
+}
+
+#drop-nav li:hover ul {
+    display: block;
+}
+
+#drop-nav li:hover li {
+    float: none;
+}
+
+#drop-nav li:hover a {
+    /*background: #00A5DA;*/
+    background: #0C7ABF;
+    color: #FFF;
+    opacity: 0.95;
+}
+
+#drop-nav li:hover li a:hover {
+    background: #00007C;;
+}
+
+#drop-nav li:hover a.inactive {
+    background: #3f3f3f;
+}
+
+#drop-nav li:hover a.inactive:hover {
+    background: #3f3f3f;
+}
+
+#drop-nav li ul li {
+    border-top: 0px;
+    font-weight: normal;
+}
+
+#drop-nav li:hover ul li a {
+    font-weight: normal;
+    border: none;
+}
+
+
+/* SUBMENU */
+#drop-nav li ul li ul {
+    display: none;
+    left: 100%;
+    top: -2px;
+    padding: 0;
+    border: 2px solid #00007C;
+    border-left: none;
+}
+
+#drop-nav li ul li ul li {
+    display: none;
+}
+
+#drop-nav li ul li:hover ul li {
+    display: block;
+}
+
+#drop-nav li ul li ul li a.last {
+    padding: 7px 25px 5px 25px;
+}
+
+#drop-nav li ul li ul li a.last_border {
+    padding: 7px 25px 5px 25px;
+    border-left: 2px solid #00007C;
+}
